@@ -1,0 +1,7 @@
+/* Estilo para igualar tamaño de imágenes en las cards */
+.card-img-top {
+  object-fit: cover;       /* Recorta sin deformar */
+  height: 400px;           /* Alto fijo (podés ajustar) */
+  width: 100%;             /* Que ocupe todo el ancho disponible */
+  border-bottom: 1px solid #ccc; /* Opcional: separador visual */
+}
