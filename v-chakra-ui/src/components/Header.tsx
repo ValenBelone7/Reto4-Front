@@ -1,4 +1,5 @@
 import { Box, Flex, Heading, Button } from "@chakra-ui/react";
+import { FaShoppingCart } from "react-icons/fa";
 import Link from "next/link";
 
 export const Header = () => (
@@ -15,6 +16,12 @@ export const Header = () => (
         <Link href="/venta">
         <Button variant="ghost" color="white">Tienda</Button>
         </Link>
+        <Link href="/carrito">
+          <Button variant="ghost" color="white" p={2}>
+            <FaShoppingCart size={20} />
+          </Button>
+        </Link>
+
       </Flex>
     </Flex>
   </Box>
